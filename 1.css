@@ -1,0 +1,44 @@
+.navbar{
+    margin-left :10%;
+    margin-right:10%;
+    margin-top  :30px;
+    display:flex;  
+    align-items:center;
+    justify-content: space-between;
+}
+
+
+    .tombol a:hover {
+    background-color: #ddd;
+    color: grey;
+}
+    .tombol a {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+    .sosmed a{
+    padding: 4px;
+}
+
+    .t-1{
+        margin-left: 25%;
+        margin-top: 10%;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-stretch:expanded;
+}
+
+    h1{
+    font-size: 50px;        
+}
+
+    .t-1-1{
+    font-size: 20px;
+    margin-right: 25% ;
+
+    }
