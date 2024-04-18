@@ -31,6 +31,8 @@
         font-family: sans-serif;
         font-weight: bold;
         font-stretch:expanded;
+       /* min-height: 100vh;*/
+        
 }
 
     h1{
@@ -40,5 +42,41 @@
     .t-1-1{
     font-size: 20px;
     margin-right: 25% ;
+    margin-bottom: 10%;
 
-    }
+}
+    footer > a {
+    color: grey;
+    text-decoration: none;
+}
+    footer > a:hover{
+    color: yellow;
+    text-decoration: dashed;
+}
+    hr{
+    width: 80%;
+    border: none;
+    height: 1px;
+    background-color: grey;
+}
+
+    .about{
+    margin-top: 5%;
+    display: flex; 
+    flex-direction: row; 
+    flex: 1 1 0;
+    padding: 0px 128px;
+}
+    .about-logo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.about-text{
+    display: flex; 
+    flex-direction: column; 
+    flex: 1 1 0; 
+    align-items: stretch; 
+    justify-content: center;
+
+}
