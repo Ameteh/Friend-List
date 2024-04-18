@@ -27,11 +27,12 @@
     .t-1{
         margin-left: 25%;
         margin-top: 10%;
+        margin-right: 25%;
         text-decoration: none;
         font-family: sans-serif;
         font-weight: bold;
         font-stretch:expanded;
-       /* min-height: 100vh;*/
+        min-height: 100vh;*/
         
 }
 
@@ -41,7 +42,6 @@
 
     .t-1-1{
     font-size: 20px;
-    margin-right: 25% ;
     margin-bottom: 10%;
 
 }
@@ -61,22 +61,24 @@
 }
 
     .about{
-    margin-top: 5%;
+    margin-top:45%;
     display: flex; 
     flex-direction: row; 
     flex: 1 1 0;
-    padding: 0px 128px;
+    padding: 0px 50px;
+ 
 }
     .about-logo{
     display: flex; 
     justify-content: center;
     align-items: center;
+    margin-right: 10%;
 }
-.about-text{
+    .about-text{
     display: flex; 
     flex-direction: column; 
     flex: 1 1 0; 
     align-items: stretch; 
     justify-content: center;
-
 }
+    
