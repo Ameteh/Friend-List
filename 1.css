@@ -1,3 +1,5 @@
+
+
 .navbar{
     margin-left :10%;
     margin-right:10%;
@@ -33,10 +35,9 @@
         font-weight: bold;
         font-stretch:expanded;
         min-height: 100vh;*/
-        
 }
 
-    h1{
+    .t-1 > h1{
     font-size: 50px;        
 }
 
@@ -61,7 +62,7 @@
 }
 
     .about{
-    margin-top:45%;
+    margin-top:48%;
     display: flex; 
     flex-direction: row; 
     flex: 1 1 0;
@@ -81,4 +82,30 @@
     align-items: stretch; 
     justify-content: center;
 }
-    
+    .visi-misi{
+    margin-top: 45%;
+    margin-bottom: 20%;
+    }
+
+    .visi-misi > h1{
+    text-align: center;
+    font-style: italic;
+    text-decoration:dashed;
+    margin-top: 10%;
+    margin-bottom: 10%;
+        /* Warna background hitam tipis */
+        background-color: rgba(241, 241, 241, 0.137);
+        /* Tambah efek blur pada background */
+        backdrop-filter: blur(0px);
+    }
+
+    .visi, .misi{
+    color: lightblue;
+    letter-spacing: 5px;
+}
+    .visi-1, .misi-1{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    font-size: 20px;
+    }
