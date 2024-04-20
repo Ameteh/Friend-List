@@ -121,3 +121,40 @@
     .tengah-date{
     font-size: 13px;
 }
+
+    .slot{
+        background-color: #202020;
+        height: auto;
+        margin: 0 20% 0 20%;
+        border: 1px solid #ddd;
+    }
+    .slot-1{
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 0;
+        border-bottom:2px solid gray;
+        margin-bottom: 4px;
+        margin: 0 10px 0 10px;
+}
+    .left{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+}
+    .right{
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+}
+    .slot-2{
+        display: flex;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+      
+}
+    .agent{
+        display: flex; 
+        gap: 10px;
+}
