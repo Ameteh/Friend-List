@@ -37,12 +37,15 @@
 }
 
     .t-1 > h1{
-    font-size: 50px;        
+    font-size: 50px;   
+    letter-spacing: 2px;  
 }
 
     .t-1-1{
     font-size: 20px;
-    margin-bottom: 10%;
+    margin-top: -3% ;
+    margin-bottom: 20%;
+    letter-spacing: 2px;
 
 }
     footer > a {
