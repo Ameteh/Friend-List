@@ -61,7 +61,7 @@
 }
 
     .about{
-    margin-top:48%;
+    margin-top: 20%;
     display: flex; 
     flex-direction: row; 
 
@@ -95,7 +95,7 @@
 }
 
     .visi-misi{
-    margin-top: 45%;
+    margin-top: 20%;
     margin-bottom: 20%;
     }
 
