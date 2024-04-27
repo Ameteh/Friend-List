@@ -32,28 +32,6 @@
             "date": "22-03-2024",
             "home_team_icon": "Picture/itbss.png",
             "away_team_icon": "Picture/g2.jpeg"
-        },
-        {
-            "matchtype": "VCT",
-            "home_team": "ITBSS",
-            "away_team": "T1",
-            "status": "COMING SOON",
-            "home_score": 0,
-            "away_score": 0,
-            "date": "29-07-2024",
-            "home_team_icon": "Picture/itbss.png",
-            "away_team_icon": "Picture/t1.jpg"
-        },
-        {
-            "matchtype": "VCT",
-            "home_team": "G2",
-            "away_team": "T1",
-            "status": "COMING SOON",
-            "home_score": 0,
-            "away_score": 0,
-            "date": "29-07-2024",
-            "home_team_icon": "Picture/g2.jpeg",
-            "away_team_icon": "Picture/t1.jpg"
         }
     ]
 }
