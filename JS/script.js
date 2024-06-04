@@ -1,6 +1,28 @@
 let popupVisible = false;
 let scrollable = true;
 
+function database() {
+    fetch("http://localhost:3000/api/schedule",{
+        method: "GET", 
+        headers: {
+            "Content-Type": "application/json"
+        }
+    }).then((res) => res.json()).then((res) => {
+        console.log(res)
+        
+        res.forEach((val, i) => {
+            if(i % 2 == 0){
+                addSchedule(val, "bar");
+            }
+            else{
+                addSchedule(val, "bar2");
+            }
+        })
+    }) 
+}
+
+database();
+
 function fetchData() {
     fetch("./JS/result.json")
     .then((resp) => resp.json())
